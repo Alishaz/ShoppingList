@@ -80,7 +80,6 @@ class tableViewController: UITableViewController {
           
             print("error")
         }
-        
          //To display the list in tableview
           func viewWillAppear(animated :Bool){
             
@@ -123,9 +122,21 @@ class tableViewController: UITableViewController {
     
         let item = ListItems[indexPath.row]
         
-        cell.textLabel?.text = item.value(forKey: "item") as! String
+        cell.textLabel?.text = item.value(forKey: "item") as? String
         
         return cell
     }
+    
+    //@IBOutlet weak var ListName: UITextField!
+    
+   // @IBOutlet weak var ListLabel: UILabel!
+    
+    //@IBOutlet weak var ItemList: UITextField!
+    
+    @IBAction func Quantity(_ sender: UIStepper) {
+        
+    }
+    
+    
 }
 
