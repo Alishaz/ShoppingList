@@ -4,7 +4,7 @@
 //
 //  Created by rushabh on 21/02/17.
 //  Copyright © 2017 CentennialCollege. All rights reserved.
-//
+//  AlishaZaveri - 300912073
 
 import UIKit
 import CoreData
